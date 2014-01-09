@@ -1,0 +1,73 @@
+/*
+Theme Name: Wordress Clean
+Description: A Stripped down and clean wordpress install to use as a starting point for theme development.
+Version: 1.0
+Author: Chris Micek
+*/
+
+@import "assets/css/reset.css";
+@import "assets/css/typography.css";
+   
+body{
+	background:#e6e6e6;
+	margin: 5em;
+}
+
+section,article,header,footer,aside{
+  	display:block;
+}
+
+section{
+	background:#fff;
+	border:solid 1px #d2d2d2;
+	float:left;
+	padding:1em 0 1em 0;
+	width:100%;
+}
+
+div.content{
+	display:inline-block;
+	float:left;
+	width:70%
+}
+article{
+	padding:1em 2em 1em 2em;
+}
+aside{
+	float:right;
+	padding:1em 0 1em 0;
+	
+	width:25%;
+}
+footer{
+	float:left;
+	margin:2em 0 2em 0;
+	text-align:center;
+	width:100%;
+}
+
+.wp-pagenavi{
+	border-top:solid 1px #c9c9c9;
+	background:#f6f6f6;
+	display:block;
+	font-size:1.25em;
+	float:left;
+	text-align:center;
+	width:100%;
+}
+	.wp-pagenavi span,
+	.wp-pagenavi a{
+ 		display:inline-block;
+		padding:5px;
+		margin:15px 5px 0 5px;
+		
+	}
+	
+	img{
+	  max-width: 100%;
+	  height: auto;
+	}
+	
+	.attachment .content{
+	  width: 100%;
+	}

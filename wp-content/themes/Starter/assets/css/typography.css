@@ -1,0 +1,62 @@
+ body { font-size: 75%; }
+ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { font-family: sans-serif; }
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: bold; }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 1em; margin-bottom: 1.5em; }
+h6 { font-size: 1em; }
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p { margin: 0 0 1.5em; line-height: 1.3em; }
+
+ul, ol { margin: 0 1.5em 1.5em 1.5em; }
+ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+li{ line-height: 1.3em; margin: 0 0 .4em 0;
+	
+}
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; }
+dl dd { margin-left: 1.5em; }
+
+abbr, acronym { border-bottom: 1px dotted #000; }
+address { margin-top: 1.5em; font-style: italic; }
+del { color: #000; }
+
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+blockquote { margin: 1.5em; }
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+dfn { font-weight: bold; }
+pre, code { margin: 1.5em 0; white-space: pre; }
+pre, code, tt { font: 1em monospace; line-height: 1.5; } 
+tt { display: block; margin: 1.5em 0; line-height: 1.5; }
+span.amp { /* For better-looking ampersands */
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+}
+ 
+table       { margin-bottom: 1.4em; width:100%; }
+th          { font-weight: bold; }
+thead th    { background: #c3d9ff; }
+th,td,caption { padding: .5em; }
+ 
+tbody tr:nth-child(even) td, 
+tbody tr.even td  { 
+	background: #e5ecf9; 
+}
+tfoot       { font-style: italic; }
+caption     { background: #eee; }

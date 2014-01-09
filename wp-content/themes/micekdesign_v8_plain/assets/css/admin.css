@@ -1,0 +1,144 @@
+/* CSS for the admin panels */
+
+
+.wrap h2 		{ margin-bottom:25px;}
+
+/*--Basic Tabbed Interface Layout --*/
+.dws_tabs 		{ display:inline; float:left; width:100%; margin:0; padding:0;border-bottom:solid 1px #e6e6e6;line-height:35px; height:35px; }
+.dws_settings	{ border:solid 1px #e6e6e6; border-top:none; background:#fff; margin:0 0 15px 0; display:inline; float:left; width:100%;-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px; -moz-border-radius:0 0 6px 6px; }
+.ui-tabs-panel	{ padding:10px 0 10px 0;}
+
+
+/*--Navigation Tab Styles --*/
+.dws_tabs li	{ display:inline; float:left; margin:0 5px 0 5px; -webkit-border-top-right-radius:6px; -webkit-border-top-left-radius:6px; -moz-border-radius: 6px 6px 0 0; }
+.dws_tabs li a	{ display:block; padding:0 12px 0 12px; line-height:35px; height:35px;}
+.dws_tabs .ui-tabs-selected,
+.dws_tabs .ui-state-active	{border:solid 1px #e6e6e6;background:#fff; border-bottom:solid 1px #fff;}
+.dws_tabs .ui-tabs-selected a,
+.dws_tabs .ui-state-active a,
+.dws_tabs .ui-tabs-selected a:hover,
+.dws_tabs .ui-state-active a:hover{ color:#444; font-weight:bold; text-decoration:none;}
+
+
+/*--Styles for the interior of a tab --*/
+
+ .dws_settings .section	{ border-top:solid 1px #e6e6e6; padding:10px 0 20px 0; display:inline; float:left; width:100%; }
+ .section p{ 	margin-bottom: 1.25em;}
+.section .padding		{  display:inline; float:left; width:95%; margin-left:25px;   }
+.section img:hover		{ cursor:pointer;border:solid 3px #89c8e5;}
+.section img			{ margin:10px 10px 10px 0;border:solid 3px #e6e6e6;}
+.section img.selected	{ border:solid 3px #21759B; }
+
+
+.section p.col_5		{ display:inline; float:left; width:20%;}
+.section label			{ padding-left:20px;   display:inline-block;}
+
+.ui-tabs-panel div:first-child	{ border-top:none; display:inline;}
+
+ input.text	{ width:90%; padding:5px;}
+ textarea.text{width:90%; padding:5px; height: 100px; }
+ .dws_settings select	{ width:200px;}
+ 
+.dws_settings p.submit	{ margin-left:25px;} 
+.dws_settings textarea	{ width:75%; height:175px;}
+
+div.list				{ display:inline; float:left; width:100%;}
+/*--Styles for the pasting from word warning --*/
+
+.error .pastePlain,
+.error .pasteWord{
+	background: url(../../../../../wp-includes/js/tinymce/themes/advanced/img/icons.gif) #e6e6e6 no-repeat -360px -20px;
+  	border: solid 1px #777;
+  	border-radius:3px;
+	display: inline-block;
+	margin: 0 4px 0 4px;
+	position: relative;
+	top: 4px;
+	height: 20px;
+	width: 20px;
+ }
+.error .pasteWord{
+	background-position: -380px -20px;	
+}
+
+
+/*--Styles for the Gallery Section --*/
+	
+.postbox .gallery {
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 5px;
+    overflow: auto;
+    padding-bottom: 5px;
+}
+.postbox .gallery h4{
+	margin-left:10px;
+}
+.postbox .gallery .image {
+	background:#e6e6e6;
+    cursor: pointer;
+    display: inline-block;
+    float:left;
+    width:140px;
+    margin: 10px;
+     position: relative;
+    text-align:center;
+    word-wrap: break-word;
+    -moz-transition: all .20s linear;
+    -webkit-transition: all .20s linear;
+    
+}
+	#poststuff .gallery .image p{
+		color:#226f94;
+		font-size:12px;
+		height:30px;
+		overflow:hidden;
+		text-shadow: 0 1px 0 #fff;
+		-moz-transition: all .20s linear;
+		-webkit-transition: all .20s linear;
+	}
+	
+	.postbox .gallery .image img{
+		margin-top:20px;
+		max-width:100px;
+		max-height:100px;
+		-moz-transition: all .20s linear;
+		-webkit-transition: all .20s linear;
+	}
+.postbox .gallery .image:hover{
+	background:#f2f2f2;
+}	
+.postbox .gallery .image:hover img {
+     opacity: .5;
+}
+.postbox .gallery .selected{
+	display:none;
+}
+#poststuff .gallery .image:hover p {
+     color:#000;
+}
+ 
+	.postbox .image a{
+		background: url(../images/bg-add.png) no-repeat;
+ 		position: absolute;
+		height: 20px;
+		width: 20px;
+		right: -10px;
+		top: -10px;
+		text-indent: -99999px;
+	}
+	.postbox .image a.remove{
+		background: url(../images/bg-remove.png) no-repeat;
+	}
+	
+	.postbox .tablenav{
+		padding:0 5px 0 5px;
+	}
+	.postbox .tablenav .tablenav-pages{
+		float:left;
+		margin:0 5px 0 5px;
+	}
+	
+	#footer{
+	  display: none; 
+	  overflow: hidden;
+	}

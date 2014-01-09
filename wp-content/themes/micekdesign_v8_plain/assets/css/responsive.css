@@ -1,0 +1,288 @@
+@media screen and (min-width: 421px) {
+  header h1 {
+    background: url(../images/bg-title.png) center center no-repeat;
+  }
+  .next, .prev {
+    display: block !important;
+  }
+  article header h2 span {
+    background: url(../images/bg-star-red.png) left 1px no-repeat, url(../images/bg-star-red.png) right 1px no-repeat;
+    padding: 0 30px;
+  }
+  .single .spacer .content {
+    height: 48px;
+  }
+}
+@media screen and (max-width: 960px) {
+  /* @group Basic Layout
+    =====================================*!/ 
+      
+      
+      
+      
+    /* @end */
+  /* @group Header
+    =====================================*!/ 
+    
+    /* @end */
+  /* @group Footer
+    =====================================*/footer ul, footer .copysocial {
+    width: 768px;
+  }
+  footer .copysocial li {
+    padding: 0 10px;
+  }
+  footer ul.about li h4, footer ul.about li p {
+    width: 222px;
+  }
+  /* @end */
+  /* @group Front Page
+    =====================================*/section.projects ul {
+    width: 768px;
+  }
+  section.projects li {
+    margin: 24px 24px 0 24px;
+  }
+  section.projects li:first-child {
+    margin-top: 46px;
+  }
+  section.projects li img {
+    height: auto;
+  }
+  section.projects li a {
+    height: 180px;
+    width: 240px;
+  }
+  /* @end */
+  /* @group Projects Page
+    =====================================*/article {
+    width: 768px;
+  }
+  article hgroup {
+    width: 768px;
+  }
+  article .gallery {
+    width: 764px;
+  }
+  section.pagination .content {
+    width: 768px;
+  }
+  .article-main {
+    -moz-column-count: 2;
+    -moz-column-gap: 64px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 64px;
+    column-count: 2;
+    column-gap: 48px;
+    padding: 0 0 64px 0;
+  }
+  /* @end */
+}
+@media screen and (max-width: 839px) {
+  /* @group Footer
+      =====================================*/footer ul.about, footer .copysocial {
+    width: 704px;
+  }
+  footer ul.stream li, footer ul.twitter li {
+    height: 150px;
+    margin: 0 0 32px 0;
+    width: 50%;
+  }
+  footer ul.stream h4,
+  footer ul.stream p,
+  footer ul.twitter h4,
+  footer ul.twitter p {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer .copysocial li {
+    padding: 0 10px;
+  }
+  footer ul.about li h4, footer ul.about li p {
+    width: 222px;
+  }
+  footer ul.stream li.sep {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  footer ul.about li h4, footer ul.about li p {
+    width: 100%;
+  }
+  footer ul.about li {
+    margin-bottom: 32px;
+    padding: 0;
+  }
+  footer .copysocial {
+    text-align: center;
+    width: 100%;
+  }
+  footer .copysocial p {
+    float: none;
+    padding: 0 24px 24px 24px;
+    width: auto;
+  }
+  footer .copysocial ul {
+    display: block;
+    float: none;
+    width: auto;
+  }
+  footer .copysocial li {
+    padding: 0;
+    text-align: center;
+    width: 33%;
+  }
+  footer .copysocial li.bullet {
+    display: none;
+  }
+  footer .copysocial li.contact {
+    width: 100%;
+  }
+  /* @end */
+  /* @group Front Page
+      =====================================*/section.projects ul {
+    width: 702px;
+  }
+  section.projects li a {
+    height: 164px;
+    width: 218px;
+  }
+  section.projects ul ul {
+    display: none;
+  }
+  /* @end */
+  /* @group Projects Page
+       =====================================*/article {
+    width: 702px;
+  }
+  article hgroup {
+    width: 702px;
+  }
+  article .gallery {
+    width: 698px;
+  }
+  section.pagination .content {
+    width: 702px;
+  }
+  /* @end */
+}
+@media screen and (max-width: 767px) {
+  /* @group Basic Layout
+    =====================================*//* @end */
+  /* @group Header
+    =====================================*/header h1 {
+    background: none;
+    color: #f8f7f8;
+    font-size: 30px;
+    padding: 0 24px;
+    position: relative;
+    text-indent: 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    top: 8px;
+  }
+  header h2 {
+    padding: 0 24px;
+  }
+  /* @end */
+  /* @group Footer
+    =====================================*/footer ul.stream, footer ul.about, footer ul.twitter {
+    display: block;
+    padding: 32px;
+    width: auto;
+  }
+  footer ul.stream li, footer ul.twitter li {
+    height: auto;
+    width: 100%;
+  }
+  footer ul.stream li:last-child, footer ul.about li:last-child, footer ul.twitter li:last-child {
+    margin-bottom: 0;
+  }
+  footer ul.stream li h4,
+  footer ul.stream li p,
+  footer ul.twitter li h4,
+  footer ul.twitter li p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer ul.stream li.sep, footer ul.twitter li.sep {
+    display: none;
+  }
+  /* @end */
+  /* @group Front Page
+    =====================================*/section.projects ul {
+    width: 100%;
+  }
+  section.projects li, section.projects li.first, section.projects li.last {
+    float: none;
+    margin: 24px 12px 0 12px;
+  }
+  section.projects li:first-child {
+    margin-top: 46px;
+  }
+  section.projects li img {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+  section.projects li a {
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+  }
+  /* @end */
+  /* @group Projects page
+    =====================================*/article {
+    display: block;
+    padding: 0 24px;
+    width: auto;
+  }
+  article hgroup {
+    width: 100%;
+  }
+  article hgroup a {
+    display: none;
+  }
+  article .gallery {
+    width: 100%;
+  }
+  .article-main {
+    -moz-column-count: 1;
+    -moz-column-gap: 64px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 64px;
+    column-count: 1;
+    column-gap: 48px;
+    padding: 0 0 24px 0;
+  }
+  section.pagination .content {
+    display: block;
+    padding: 0 24px;
+    width: auto;
+  }
+  section.pagination .content a {
+    padding: 0;
+  }
+  section.pagination .content a.prev span {
+    background-position: 12px 9px;
+  }
+  section.pagination .content span {
+    background-position: 9px 9px;
+    overflow: hidden;
+    text-indent: -9999px;
+    padding: 0;
+    width: 35px;
+  }
+  .gallery figcaption {
+    background: none;
+    display: inline-block;
+  }
+  .gallery figcaption h4 {
+    padding: 0 0;
+  }
+  /* @end */
+}
